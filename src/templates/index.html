@@ -2,8 +2,21 @@
 <html lang="en">
 <head>
     <title>Video Streaming</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
+    <h1>Video Stream</h1>
     <img src="{{ url_for('video_feed') }}">
+
+    <h1>Notifications</h1>
+    <div id="notifications"></div>
+
+    <script>
+    setInterval(function() {
+        $.get("/logs", function(data) {
+            $("#notifications").html(data.replace(/\n/g, "<br />"));
+        });
+    }, 10000);
+    </script>
 </body>
 </html>

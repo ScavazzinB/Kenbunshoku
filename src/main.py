@@ -1,10 +1,14 @@
 # src/main.py
-from web_stream import start_streaming
+from os import listdir
+from os.path import isfile, join
+import os
+import re
+from web_stream import start_streaming, gen_frames
 from threading import Thread
 from flask import Flask, render_template, Response
 from config import PORT, VIDEO_DIR, PRE_RECORD_TIME, POST_RECORD_TIME
 from config import CAMERA_RESOLUTION, CAMERA_FPS
-from web_stream import gen_frames, update_frame
+from web_stream import update_frame
 from logger import global_logger as logger
 from camera import Camera
 from motion_detection import MotionDetection
@@ -23,6 +27,24 @@ def index():
 @app.route('/video_feed')
 def video_feed():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/logs')
+def return_logs():
+    video_dir = 'videos'  # Remplacez par le chemin de votre dossier de vidéos
+    video_files = [f for f in listdir(video_dir) if isfile(join(video_dir, f))]
+
+    # Stocker les noms des fichiers vidéo dans une variable globale
+    global previous_video_files
+    if 'previous_video_files' not in globals():
+        previous_video_files = video_files
+
+    new_videos = list(set(video_files) - set(previous_video_files))
+    previous_video_files = video_files
+
+    return "<br>".join(new_videos) if new_videos else "No new videos"
+def run_flask_app():
+    logger.info(f"Starting Flask app on port {PORT}...")
+    app.run(host='0.0.0.0', port=PORT, debug=True, use_reloader=False)
 
 def record_video(queue):
     video_writer = None
@@ -55,6 +77,9 @@ def main():
 
     while True:
         curr_frame = camera.capture_image()
+        if curr_frame is None:
+            logger.error('Failed to capture image')
+            continue
         update_frame(curr_frame)  # Update the stream with every captured frame
         frames_buffer.append((datetime.now(), curr_frame))
         if prev_frame is not None:
