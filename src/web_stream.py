@@ -1,10 +1,11 @@
 # src/web_stream.py
-
-from flask import Response
 import cv2
+from multiprocessing import Process
+from camera import Camera
 from logger import global_logger as logger
 
 global_frame = None
+camera = None
 
 def gen_frames():
     global global_frame
@@ -19,4 +20,7 @@ def update_frame(frame):
     global global_frame
     global_frame = frame
 
-logger.info("Web stream module initialized")
+def start_streaming(camera):
+    while True:
+        frame = camera.capture_image()
+        update_frame(frame)

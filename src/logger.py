@@ -4,12 +4,12 @@ import psutil
 import os
 
 
-def setup_logger():
-    logger = logging.getLogger('kenbunshoku')
+def setup_logger(name='kenbunshoku'):  # Add a parameter for the logger name
+    logger = logging.getLogger(name)  # Use the provided name
     logger.setLevel(logging.DEBUG)
 
     # Create a file handler
-    log_file = os.path.join(os.path.dirname(__file__), '..', 'logs', 'kenbunshoku.log')
+    log_file = os.path.join(os.path.dirname(__file__), '..', 'logs', f'{name}.log')  # Use the provided name in the log file name
     file_handler = logging.FileHandler(log_file)
     file_handler.setLevel(logging.DEBUG)
 
@@ -29,7 +29,7 @@ def setup_logger():
     return logger
 
 
-global_logger = setup_logger()
+global_logger = setup_logger()  # No argument is passed here, so it will use the default 'kenbunshoku'
 
 
 def log_system_info(logger):

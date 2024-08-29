@@ -1,43 +1,86 @@
-import cv2
+# src/main.py
+from web_stream import start_streaming
+from threading import Thread
 from flask import Flask, render_template, Response
-from config import PORT
+from config import PORT, VIDEO_DIR, PRE_RECORD_TIME, POST_RECORD_TIME
+from config import CAMERA_RESOLUTION, CAMERA_FPS
 from web_stream import gen_frames, update_frame
 from logger import global_logger as logger
 from camera import Camera
-from object_detection import ObjectDetection
+from motion_detection import MotionDetection
+from video_recording import init_video_writer, write_frame, release_writer, set_file_permissions
+from utils import get_video_path
+from collections import deque
+from datetime import datetime, timedelta
+from multiprocessing import Process, Queue
 
 app = Flask(__name__)
-
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-
 @app.route('/video_feed')
 def video_feed():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+def record_video(queue):
+    video_writer = None
+    try:
+        while True:
+            timestamp, frame = queue.get()
+            if video_writer is None:
+                video_path = get_video_path(VIDEO_DIR)
+                video_writer = init_video_writer(CAMERA_RESOLUTION, CAMERA_FPS, video_path)
+            write_frame(video_writer, frame)
+            if timestamp is None:  # End of recording signal
+                break
+    except Exception as e:
+        logger.error(f"Error in video recording process: {e}")
+    finally:
+        if video_writer is not None:
+            release_writer(video_writer)
 
 def main():
     camera = Camera()
-    object_detection = ObjectDetection()
+    streaming_thread = Thread(target=start_streaming, args=(camera,))
+    streaming_thread.start()
+    motion_detection = MotionDetection()
+
+    prev_frame = None
+    frames_buffer = deque(maxlen=PRE_RECORD_TIME * CAMERA_FPS)
+    last_motion_time = None
+    recording_process = None
+    recording_queue = Queue()
 
     while True:
-        frame = camera.get_frame()
-        frame = object_detection.detect_objects(frame)
-        update_frame(frame)
-
+        curr_frame = camera.capture_image()
+        update_frame(curr_frame)  # Update the stream with every captured frame
+        frames_buffer.append((datetime.now(), curr_frame))
+        if prev_frame is not None:
+            motion_detected = motion_detection.detect_motion(prev_frame, curr_frame)
+            if motion_detected:
+                last_motion_time = datetime.now()
+                if recording_process is None or not recording_process.is_alive():  # Start new recording process if not already recording
+                    if recording_process is not None:  # Previous recording process ended, release resources
+                        recording_process.join()
+                        recording_queue.close()
+                        recording_queue = Queue()
+                    recording_process = Thread(target=record_video, args=(recording_queue,))
+                    recording_process.start()
+                    for _, frame in frames_buffer:  # Write pre-record frames
+                        recording_queue.put((datetime.now(), frame))
+                recording_queue.put((datetime.now(), curr_frame))
+            elif recording_process is not None and datetime.now() - last_motion_time > timedelta(seconds=POST_RECORD_TIME):  # Check if post-record time has passed since last motion
+                recording_queue.put((None, None))  # Send end of recording signal
+                recording_process = None
+        prev_frame = curr_frame
 
 if __name__ == '__main__':
-    from threading import Thread
-
     logger.info("Starting main thread...")
-    # Start the main loop in a separate thread
     main_thread = Thread(target=main)
     main_thread.daemon = True
     main_thread.start()
 
     logger.info(f"Starting Flask app on port {PORT}...")
-    # Run the Flask app
     app.run(host='0.0.0.0', port=PORT, debug=True, use_reloader=False)
