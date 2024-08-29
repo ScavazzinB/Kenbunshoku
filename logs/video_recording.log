@@ -1,0 +1,92 @@
+2024-08-29 17:30:19,207 - video_recording - INFO - Initializing video writer: videos/video_20240829_173019.mp4
+2024-08-29 17:32:56,617 - video_recording - INFO - Initializing video writer: videos/video_20240829_173256.mp4
+2024-08-29 17:34:03,547 - video_recording - INFO - Initializing video writer: videos/video_20240829_173403.mp4
+2024-08-29 17:36:47,118 - video_recording - INFO - Initializing video writer: videos/video_20240829_173647.mp4
+2024-08-29 17:37:07,349 - video_recording - INFO - Closing video writer
+2024-08-29 17:37:17,055 - video_recording - INFO - Initializing video writer: videos/video_20240829_173717.mp4
+2024-08-29 17:37:23,249 - video_recording - INFO - Closing video writer
+2024-08-29 17:43:16,982 - video_recording - INFO - Initializing video writer: videos/video_20240829_174316.mp4
+2024-08-29 17:43:21,576 - video_recording - INFO - Closing video writer
+2024-08-29 17:43:28,078 - video_recording - INFO - Initializing video writer: videos/video_20240829_174328.mp4
+2024-08-29 17:43:35,374 - video_recording - INFO - Closing video writer
+2024-08-29 17:43:53,183 - video_recording - INFO - Initializing video writer: videos/video_20240829_174353.mp4
+2024-08-29 17:44:04,077 - video_recording - INFO - Closing video writer
+2024-08-29 17:52:36,112 - video_recording - INFO - Initializing video writer: videos/video_20240829_175236.mp4
+2024-08-29 17:52:43,205 - video_recording - INFO - Closing video writer
+2024-08-29 17:52:53,312 - video_recording - INFO - Initializing video writer: videos/video_20240829_175253.mp4
+2024-08-29 17:52:58,808 - video_recording - INFO - Closing video writer
+2024-08-29 17:55:04,224 - video_recording - INFO - Initializing video writer: videos/video_20240829_175504.mp4
+2024-08-29 17:55:08,720 - video_recording - INFO - Closing video writer
+2024-08-29 17:59:03,969 - video_recording - INFO - Initializing video writer: videos/video_20240829_175903.mp4
+2024-08-29 17:59:11,459 - video_recording - INFO - Closing video writer
+2024-08-29 17:59:18,867 - video_recording - INFO - Initializing video writer: videos/video_20240829_175918.mp4
+2024-08-29 18:02:47,115 - video_recording - INFO - Initializing video writer: videos/video_20240829_180247.mp4
+2024-08-29 18:02:58,707 - video_recording - INFO - Closing video writer
+2024-08-29 18:04:54,323 - video_recording - INFO - Initializing video writer: videos/video_20240829_180454.mp4
+2024-08-29 18:05:03,520 - video_recording - INFO - Closing video writer
+2024-08-29 18:05:08,228 - video_recording - INFO - Initializing video writer: videos/video_20240829_180508.mp4
+2024-08-29 18:05:13,223 - video_recording - INFO - Closing video writer
+2024-08-29 18:06:18,530 - video_recording - INFO - Initializing video writer: videos/video_20240829_180618.mp4
+2024-08-29 18:06:22,830 - video_recording - INFO - Closing video writer
+2024-08-29 22:28:37,227 - video_recording - INFO - Initializing video writer: videos/video_20240829_222837.mp4
+2024-08-29 22:28:42,419 - video_recording - INFO - Closing video writer
+2024-08-29 22:28:48,430 - video_recording - INFO - Initializing video writer: videos/video_20240829_222848.mp4
+2024-08-29 22:28:52,923 - video_recording - INFO - Closing video writer
+2024-08-29 22:29:18,126 - video_recording - INFO - Initializing video writer: videos/video_20240829_222918.mp4
+2024-08-29 22:29:26,324 - video_recording - INFO - Closing video writer
+2024-08-29 21:38:43,444 - video_recording - INFO - Initializing video writer: videos/video_20240829_213843.mp4
+2024-08-29 21:39:13,338 - video_recording - INFO - Closing video writer
+2024-08-29 21:39:17,642 - video_recording - INFO - Initializing video writer: videos/video_20240829_213917.mp4
+2024-08-29 21:39:32,539 - video_recording - INFO - Closing video writer
+2024-08-29 21:39:44,346 - video_recording - INFO - Initializing video writer: videos/video_20240829_213944.mp4
+2024-08-29 21:40:05,243 - video_recording - INFO - Closing video writer
+2024-08-29 21:40:08,245 - video_recording - INFO - Initializing video writer: videos/video_20240829_214008.mp4
+2024-08-29 21:40:12,442 - video_recording - INFO - Closing video writer
+2024-08-29 21:40:15,145 - video_recording - INFO - Initializing video writer: videos/video_20240829_214015.mp4
+2024-08-29 21:40:49,648 - video_recording - INFO - Closing video writer
+2024-08-29 21:41:45,677 - video_recording - INFO - Initializing video writer: videos/video_20240829_214145.mp4
+2024-08-29 21:42:00,953 - video_recording - INFO - Closing video writer
+2024-08-29 21:43:42,172 - video_recording - INFO - Initializing video writer: videos/video_20240829_214342.mp4
+2024-08-29 21:43:47,866 - video_recording - INFO - Closing video writer
+2024-08-29 21:44:18,874 - video_recording - INFO - Initializing video writer: videos/video_20240829_214418.mp4
+2024-08-29 21:44:21,899 - video_recording - INFO - Closing video writer
+2024-08-29 21:48:25,071 - video_recording - INFO - Initializing video writer: videos/video_20240829_214825.mp4
+2024-08-29 21:48:38,564 - video_recording - INFO - Closing video writer
+2024-08-29 21:49:09,472 - video_recording - INFO - Initializing video writer: videos/video_20240829_214909.mp4
+2024-08-29 21:49:15,168 - video_recording - INFO - Closing video writer
+2024-08-29 21:49:51,976 - video_recording - INFO - Initializing video writer: videos/video_20240829_214951.mp4
+2024-08-29 21:49:59,572 - video_recording - INFO - Closing video writer
+2024-08-29 21:50:37,581 - video_recording - INFO - Initializing video writer: videos/video_20240829_215037.mp4
+2024-08-29 21:50:44,179 - video_recording - INFO - Closing video writer
+2024-08-29 21:51:32,590 - video_recording - INFO - Initializing video writer: videos/video_20240829_215132.mp4
+2024-08-29 21:51:37,085 - video_recording - INFO - Closing video writer
+2024-08-29 21:52:10,092 - video_recording - INFO - Initializing video writer: videos/video_20240829_215210.mp4
+2024-08-29 21:52:15,387 - video_recording - INFO - Closing video writer
+2024-08-29 21:52:38,395 - video_recording - INFO - Initializing video writer: videos/video_20240829_215238.mp4
+2024-08-29 21:56:55,092 - video_recording - INFO - Initializing video writer: videos/video_20240829_215655.mp4
+2024-08-29 21:57:10,884 - video_recording - INFO - Closing video writer
+2024-08-29 21:58:04,695 - video_recording - INFO - Initializing video writer: videos/video_20240829_215804.mp4
+2024-08-29 21:58:11,690 - video_recording - INFO - Closing video writer
+2024-08-29 21:58:55,199 - video_recording - INFO - Initializing video writer: videos/video_20240829_215855.mp4
+2024-08-29 21:59:02,794 - video_recording - INFO - Closing video writer
+2024-08-29 22:00:21,906 - video_recording - INFO - Initializing video writer: videos/video_20240829_220021.mp4
+2024-08-29 22:03:13,853 - video_recording - INFO - Initializing video writer: videos/video_20240829_220313.mp4
+2024-08-29 22:03:23,946 - video_recording - INFO - Closing video writer
+2024-08-29 22:05:43,266 - video_recording - INFO - Initializing video writer: videos/video_20240829_220543.mp4
+2024-08-29 22:05:49,561 - video_recording - INFO - Closing video writer
+2024-08-29 22:05:53,264 - video_recording - INFO - Initializing video writer: videos/video_20240829_220553.mp4
+2024-08-29 22:05:57,361 - video_recording - INFO - Closing video writer
+2024-08-29 22:06:04,364 - video_recording - INFO - Initializing video writer: videos/video_20240829_220604.mp4
+2024-08-29 22:06:08,461 - video_recording - INFO - Closing video writer
+2024-08-29 22:06:13,669 - video_recording - INFO - Initializing video writer: videos/video_20240829_220613.mp4
+2024-08-29 22:09:59,547 - video_recording - INFO - Initializing video writer: videos/video_20240829_220959.mp4
+2024-08-29 22:10:03,941 - video_recording - INFO - Closing video writer
+2024-08-29 22:10:22,779 - video_recording - INFO - Initializing video writer: videos/video_20240829_221022.mp4
+2024-08-29 22:10:30,575 - video_recording - INFO - Closing video writer
+2024-08-29 22:10:35,053 - video_recording - INFO - Initializing video writer: videos/video_20240829_221035.mp4
+2024-08-29 22:10:41,711 - video_recording - INFO - Closing video writer
+2024-08-29 22:10:51,121 - video_recording - INFO - Initializing video writer: videos/video_20240829_221051.mp4
+2024-08-29 22:10:56,410 - video_recording - INFO - Closing video writer
+2024-08-29 22:10:57,815 - video_recording - INFO - Initializing video writer: videos/video_20240829_221057.mp4
+2024-08-29 22:11:01,847 - video_recording - INFO - Closing video writer
+2024-08-29 22:11:10,984 - video_recording - INFO - Initializing video writer: videos/video_20240829_221110.mp4

@@ -1,0 +1,158 @@
+2024-08-29 17:30:17,400 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:30:17,401 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:30:17,527 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:30:17,528 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:30:17,528 - kenbunshoku - INFO - Memory Usage: 33.4%
+2024-08-29 17:30:17,528 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:30:17,698 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:30:33,207 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 17:32:55,947 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:32:55,947 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:32:56,072 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:32:56,073 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:32:56,073 - kenbunshoku - INFO - Memory Usage: 33.5%
+2024-08-29 17:32:56,073 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:32:56,245 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:33:06,915 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 17:34:01,267 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:34:01,268 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:34:01,398 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:34:01,399 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:34:01,399 - kenbunshoku - INFO - Memory Usage: 33.5%
+2024-08-29 17:34:01,399 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:34:01,575 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:34:12,787 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 17:36:45,971 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:36:45,972 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:36:46,097 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:36:46,103 - kenbunshoku - INFO - CPU Usage: 50.0%
+2024-08-29 17:36:46,104 - kenbunshoku - INFO - Memory Usage: 33.5%
+2024-08-29 17:36:46,104 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:36:46,279 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:43:16,109 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:43:16,110 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:43:16,233 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:43:16,234 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:43:16,235 - kenbunshoku - INFO - Memory Usage: 33.7%
+2024-08-29 17:43:16,235 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:43:16,440 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:45:12,484 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:52:34,229 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:52:34,230 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:52:34,359 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:52:34,360 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:52:34,360 - kenbunshoku - INFO - Memory Usage: 33.8%
+2024-08-29 17:52:34,360 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:52:34,570 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:52:34,570 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:58:50,493 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 17:58:50,494 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 17:58:50,619 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 17:58:50,620 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 17:58:50,620 - kenbunshoku - INFO - Memory Usage: 33.7%
+2024-08-29 17:58:50,620 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 17:58:50,824 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:58:50,824 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:58:59,056 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 17:58:59,057 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 18:02:45,742 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 18:02:45,742 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 18:02:45,867 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 18:02:45,867 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 18:02:45,868 - kenbunshoku - INFO - Memory Usage: 33.4%
+2024-08-29 18:02:45,868 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 18:02:46,072 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 18:02:46,073 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:28:26,954 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 22:28:26,954 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 22:28:27,078 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 22:28:27,079 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 22:28:27,079 - kenbunshoku - INFO - Memory Usage: 34.8%
+2024-08-29 22:28:27,079 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 22:28:27,285 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:28:27,285 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:28:51,221 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:31:17,233 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:31:17,233 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:31:25,737 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:38:39,868 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 21:38:39,869 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 21:38:39,998 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 21:38:39,998 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 21:38:39,998 - kenbunshoku - INFO - Memory Usage: 31.4%
+2024-08-29 21:38:39,999 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 21:38:40,200 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:38:40,200 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:29,336 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:53,140 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:53,142 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:56,840 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:56,840 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:59,740 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:39:59,740 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:40:19,744 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:40:27,044 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:40:27,044 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:41:16,448 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:41:16,450 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:41:47,852 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:41:47,853 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:42:10,052 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:42:10,052 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:42:39,356 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:42:39,357 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:42:55,460 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:43:00,060 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:43:00,061 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:43:14,760 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:43:14,760 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:43:57,964 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:44:21,768 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:44:21,769 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:44:21,899 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 21:48:20,499 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 21:48:20,499 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 21:48:20,623 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 21:48:20,624 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 21:48:20,624 - kenbunshoku - INFO - Memory Usage: 88.3%
+2024-08-29 21:48:20,624 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 21:48:20,830 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:48:20,830 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:51:18,078 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:51:18,078 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:51:30,582 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:51:30,582 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:52:07,686 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:52:07,686 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:52:22,586 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:56:53,817 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 21:56:53,818 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 21:56:53,946 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 21:56:53,946 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 21:56:53,947 - kenbunshoku - INFO - Memory Usage: 33.2%
+2024-08-29 21:56:53,947 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 21:56:54,148 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:56:54,149 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:58:47,092 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 21:58:47,093 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:00:24,418 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 22:03:13,080 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 22:03:13,080 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 22:03:13,205 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 22:03:13,206 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 22:03:13,206 - kenbunshoku - INFO - Memory Usage: 33.3%
+2024-08-29 22:03:13,206 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 22:03:13,411 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:03:13,411 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:06:16,697 - kenbunshoku - ERROR - Error in video recording process: 
+2024-08-29 22:09:58,474 - kenbunshoku - INFO - Starting main thread...
+2024-08-29 22:09:58,475 - kenbunshoku - INFO - Starting Flask app on port 4567...
+2024-08-29 22:09:58,600 - kenbunshoku - INFO - Camera initialized successfully.
+2024-08-29 22:09:58,601 - kenbunshoku - INFO - CPU Usage: 0.0%
+2024-08-29 22:09:58,601 - kenbunshoku - INFO - Memory Usage: 33.5%
+2024-08-29 22:09:58,601 - kenbunshoku - INFO - Disk Usage: 26.6%
+2024-08-29 22:09:58,805 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:09:58,805 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:10:15,337 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:10:15,338 - kenbunshoku - ERROR - Failed to capture image
+2024-08-29 22:11:14,294 - kenbunshoku - ERROR - Error in video recording process: 
